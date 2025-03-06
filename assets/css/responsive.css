@@ -1,0 +1,124 @@
+@media all and (max-width: 1199px) {
+
+}
+
+
+@media all and (min-width: 992px) {
+    .pricing-table-area {
+        height: 100vh;
+      }
+}
+
+@media all and (max-width: 991px) {
+    .ht-support-content,.pricing-table {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .ht-hero-content h1 {
+        font-size: 65px;
+    }
+
+
+}
+
+@media all and (min-width: 768px) {
+    .ht-header-area ul {
+        display: flex !important;
+    }
+}
+
+
+@media all and (max-width: 767px) {
+    
+    .ht-right-icon {
+        display: none;
+    }
+    .ht-logo img {
+        width: 60px;
+    }
+    .ht-header-area {
+        padding: 15px 0;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .ht-header-menu ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 85px;
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+        background: #e03535;
+        display: none;
+    }
+    .ht-hero-button a {
+        padding: 8px 55px;
+        margin: 0 8px;
+    }
+    .ht-hero-content h1 {
+        font-size: 55px;
+    }
+
+    .single-ht-support-content {
+        padding: 25px 15px;
+    }
+
+
+}
+
+
+@media all and (max-width: 575px) {
+    .ht-support-content,.pricing-table {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ht-hero-content h1 {
+        font-size: 45px;
+    }
+    .ht-hero-button {
+        margin-top: 35px;
+    }
+    .ht-hero-area {
+        padding-top: 20px;
+    }
+    .pricing-table-area {
+        padding-top: 35px;
+    }
+
+
+}
+
+
+@media all and (max-width: 450px) {
+    .ht-logo img {
+        width: 50px;
+    }
+    .pricing-table-area {
+        padding-top: 25px;
+    }
+    .ht-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .ht-hero-content p {
+        font-size: 17px;
+       
+    }
+    .ht-hero-button {
+        flex-direction: column;
+    }
+    .ht-hero-button a {
+        padding: 8px 10px;
+        margin: 0;
+        margin-bottom: 15px;
+        width: 150px;
+        text-align: center;
+    }
+    .ht-header-menu ul {
+        top: 78px;
+    }
+    
+}
