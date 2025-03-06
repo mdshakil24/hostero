@@ -200,7 +200,10 @@ ul,li{
 
 /* Start HT Support Area Css */
 .ht-support-area {
-  background: #F6F6FF;
+  background: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
   padding: 60px 0;
 
 }
@@ -210,7 +213,7 @@ ul,li{
   gap: 20px;
 }
 .single-ht-support-content {
-  background: #FFFFFF;
+  background: rgba(0,0,0,.7);
   padding: 25px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -219,8 +222,8 @@ ul,li{
   transition: .3s;
 }
 .single-ht-support-content:hover {
-  background-color: #3e6ae1;
-  box-shadow: 0 0 30px rgba(0,0,0,.7);
+  background-color: rgba(62,06,125,.7);
+  box-shadow: 0 0 30px rgba(0,0,0,.5);
 }
 .single-ht-support-content img {
   width: 80px;
@@ -229,7 +232,7 @@ ul,li{
 .single-ht-support-content h3 {
   font-weight: 700;
   font-size: 22px;
-  color: #000000;
+  color: #ffffff;
   text-transform: inherit;
   line-height: 1.2;
   margin: 10px 0;
@@ -240,7 +243,7 @@ ul,li{
 .single-ht-support-content p {
   font-weight: 400;
   font-size: 16px;
-  color: #000000;
+  color: #ffffff;
   text-transform: inherit;
   line-height: 1.2;
 }
