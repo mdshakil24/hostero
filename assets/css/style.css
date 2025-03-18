@@ -157,13 +157,16 @@ ul,li{
   padding: 50px 0;
 }
 .ht-hero-content {
+  max-width: 660px;
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
 }
 .ht-hero-content h1 {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 60px;
   color: #FFFFFF;
-  text-transform: uppercase;
+  text-transform: inherit;
   line-height: normal;
 }
 .ht-hero-content p {
@@ -186,7 +189,7 @@ ul,li{
   font-size: 16px;
   color: #FFFFFF;
   text-transform: capitalize;
-  padding: 8px 90px;
+  padding: 8px 50px;
   border-radius: 5px;
   margin: 0 15px;
   transition: .3s;
@@ -269,7 +272,15 @@ ul,li{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   width: 100%;
+  transition: .3s;
 }
+
+.plan:hover,.plan.active {
+  background-color: #080226;
+  transform: scale(1.07);
+}
+
+
 
 .plan h2 {
   margin: 0;
@@ -278,6 +289,10 @@ ul,li{
 
 .plan p {
   margin: 10px 0;
+}
+
+.plan:hover p, .plan.plan.active p {
+  color: #FFFFFF;
 }
 
 .plan .price {
@@ -301,5 +316,8 @@ ul,li{
 .get-plan:hover {
   background-color: #005bb5;
 }
+
+
+
 
 /* End Pricing Table Area Css  */
